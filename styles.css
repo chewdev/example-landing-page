@@ -4,6 +4,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body > * {
   padding: 0 15%;
 }
@@ -83,4 +87,42 @@ button {
 main button {
   background-color: #3882f6;
   color: inherit;
+}
+
+.info-container {
+  background: #f9faf8;
+  color: #1f2937;
+}
+
+h2 {
+  text-align: center;
+  padding: 48px 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-container > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding-bottom: 104px;
+}
+
+.info-container > div > div {
+  width: 168px;
+}
+
+.info-container img {
+  width: 168px;
+  height: 168px;
+  border: 3px solid #3882f6;
+  border-radius: 20px;
+}
+
+.info-container p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 4px;
 }
