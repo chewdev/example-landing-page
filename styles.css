@@ -35,3 +35,52 @@ a {
   font-size: 18px;
   text-align: center;
 }
+
+main {
+  margin: 125px 0;
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+main > * {
+  width: 35%;
+  flex: 1 1 auto;
+  min-width: 330px;
+}
+
+main p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+main > img {
+  background-color: #e5e7eb;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  border-radius: 8px;
+  border-color: #3882f6;
+  border-style: none;
+  padding: 8px 24px;
+  font-weight: 700;
+}
+
+main button {
+  background-color: #3882f6;
+  color: inherit;
+}
