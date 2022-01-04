@@ -1,0 +1,37 @@
+body {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+}
+
+body > * {
+  padding: 0 15%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header > a {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-right {
+  display: flex;
+  gap: 16px;
+}
+
+.header-right a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
+}
