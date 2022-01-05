@@ -43,7 +43,7 @@ a {
 }
 
 main {
-  margin: 125px 0;
+  margin: 100px 0;
   display: flex;
   gap: 48px;
   flex-wrap: wrap;
@@ -82,8 +82,9 @@ button {
   border-radius: 8px;
   border-color: #3882f6;
   border-style: none;
-  padding: 8px 24px;
+  padding: 8px 30px;
   font-weight: 700;
+  font-size: 18px;
 }
 
 main button {
@@ -191,7 +192,6 @@ h2 {
   background-color: inherit;
   color: inherit;
   border: 2px solid currentColor;
-  font-size: 18px;
   padding: 6px 30px;
   margin: 24px 0;
 }
